@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_ul li {
+    width: 132px;
+    height: 29px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+.nav_ul {
+    display: flex;
+    gap: 40px;
+}
+
+.section1 {
+    margin: 0 auto;
+    height: 594px;
+    width: 100%;
+    background-image: url(img/Rectangle\ 2\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 37px;
+}
+
+.section1-text {
+    width: 602px;
+    height: 75px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+
+.section1-text-h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77.45px;
+    text-align: center;
+}
+
+.relative {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    padding-top: 146px;
+}
+
+.rfirst {
+    position: relative;
+    top: 185px;
+    left: 87px;
+}
+
+.relativeh2 {
+    color: #FF0606;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    width: 132px;
+    height: 29px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    margin: 0 auto;
+}
+
+.absolute {
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    align-content: center;
+}
+
+.afirst {
+    position: absolute;
+    top: 362px;
+    left: 206px;
+}
+
+.absoluteh2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    width: 132px;
+    height: 29px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    margin: 0 auto;
+}
+
+.rsecond {
+    position: relative;
+    left: 640px;
+}
+
+.asecond {
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    position: absolute;
+    top: 362px;
+    left: 545px;
+}
+
+.rthird {
+    position: relative;
+    left: 1152px;
+    top: -210px;
+}
+
+.athird {
+    position: absolute;
+    top: 362px;
+    left: 1030px;
+}
+
+.section2 {
+    margin: 0 auto;
+    height: 594px;
+    width: 100%;
+    padding-top: 37px;
+    background-color: black;
+    padding-left: 89px;
+    padding-right: 89px;
+}
+
+.section2-first {
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    padding-top: 50px;
+    margin-top: 127px;
+}
+
+.section2-first-h3 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38.73px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    margin-bottom: 68px;
+}
+
+.section2-first-p {
+    width: 265px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.seconds2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section2img {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+.i2 {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.h31 {
+    margin-bottom: 30px;
+}
+
+.section-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding-left: 89px;
+    padding-right: 89px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_ul {
+    display: flex;
+    gap: 41px;
+}
+
+.footer_ul li {
+    width: 132px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: white;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
